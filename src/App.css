@@ -265,6 +265,7 @@ button{
   }
   .save-btn{
     font-size: .8rem;
-    height: 2rem;
+    height: 2.3rem;
+    border-radius: none;
   }
 }
