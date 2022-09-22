@@ -11,6 +11,7 @@
   
   border: 2px solid #333333;
   padding: 15px;
+  min-height: 200px;
 }
 .toggle-msg{
   font-size: .8em;
