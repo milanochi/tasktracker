@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'
 import { useState } from 'react';
 
-const Form = ({ onAdd }) => {
+const Form = ({ onAdd, info }) => {
 const [text, setText] = useState('')
 const [day, setDay] = useState('')
 const [reminder, setReminder] = useState(false)
@@ -40,6 +40,7 @@ const onSubmit = (e) =>{
 
             <input type='submit' value="Save Task" className='save-btn' />
         </div>
+        <div className='info container'>{info}</div>
     </form>
   )
 }

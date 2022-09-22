@@ -80,6 +80,11 @@
   padding: 0 10px 0 10px;
   height: 1.5rem;
 }
+.info{
+  font-family: Rubik;
+  font-size: .6rem;
+  padding: 3px;
+}
 .checkstyle{
  width: 80px;
 

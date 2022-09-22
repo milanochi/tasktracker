@@ -57,7 +57,7 @@ setTask(tasks.map((task) => task.id === id ? {...task, reminder: !task.reminder}
           <Header title="Add Task" onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask}/>
         </nav>   
     </div>
-    {showAddTask && <Form onAdd={addTask} /> }
+    {showAddTask && <Form onAdd={addTask} info="You can double-tap on task box below to track"/> }
     
 </header>
         <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggle} />
