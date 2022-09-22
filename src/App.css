@@ -60,6 +60,7 @@
   padding: 15px;
   font-family: Rubik;
   outline: none;
+ 
 }
 .form-control{
   padding: 0 10px 0 10px;
@@ -252,5 +253,8 @@ button{
   }
   .form-control, .form-control2 label{
     font-size: .8rem;
+  }
+  .save-btn{
+    height: 2rem;
   }
 }
