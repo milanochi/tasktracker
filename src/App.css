@@ -50,6 +50,12 @@
 .tasks_reminder{
   border-left: 8px solid green;
 }
+/* .tasks-info{
+  background-color: #333333;
+  max-width: 200px;
+  display: flex;
+  flex: 1 20%;
+} */
 .btn-block{
   padding: 15px;
   font-family: Rubik;
@@ -63,7 +69,7 @@
 .form-input{
   width: 100%;
   height: 2rem;
-  padding: 5px;
+  padding: 1rem 2rem 1rem .5rem;
 }
 .form-control2{
   display: flex;
@@ -226,8 +232,10 @@ button{
 
 @media (max-width: 800px) {
   .App-header_inner h1{
-      font-size: 1.5rem;
-      font-weight: 700;
+      font-size: 1.3rem;
+      font-weight: 800;
+      font-family: montserrat;
+     
   }
   .tasks h3{
     font-size: .9rem;
@@ -241,5 +249,8 @@ button{
   }
   .form-control input{
     font-size: 1rem;
+  }
+  .form-control, .form-control2 label{
+    font-size: .8rem;
   }
 }
