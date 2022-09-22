@@ -11,7 +11,7 @@
   
   border: 2px solid #333333;
   padding: 15px;
-  min-height: 200px;
+  
 }
 .toggle-msg{
   font-size: .8em;
@@ -83,7 +83,7 @@
 .info{
   font-family: Rubik;
   font-size: .6rem;
-  padding: 3px;
+  padding: 10px;
 }
 .checkstyle{
  width: 80px;
@@ -98,7 +98,6 @@
   font-family: Rubik;
   font-size: 1rem;
   outline: none;
-  margin-bottom: 1rem;
   cursor: pointer;
 }
 label{
