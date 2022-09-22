@@ -1,0 +1,223 @@
+.App {
+ /* display: flex;
+ align-items: center;
+ min-height: 200vh; */
+ margin-top: 1rem;
+ 
+}
+.App_wrapper{
+  
+  border: 2px solid #333333;
+  padding: 15px;
+}
+.toggle-msg{
+  font-size: .8em;
+  font-family: Rubik;
+  padding:  10px;
+  margin-bottom: 2px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.container{
+  max-width: 600px;
+  width: calc(100% - 30px);
+  margin: 0 auto;
+}
+.tasks{
+  background-color: lightgrey;
+  padding: 15px;
+  margin-top: 16px;
+  border-radius: 8px;
+  width: 100%;
+
+
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+
+}
+.tasks_reminder{
+  border-left: 8px solid green;
+}
+.btn-block{
+  padding: 15px;
+  font-family: Rubik;
+  outline: none;
+}
+.form-control{
+  padding: 0 10px 0 10px;
+  margin-bottom: 8px;
+}
+
+.form-input{
+  width: 100%;
+  height: 2rem;
+  padding: 5px;
+}
+.form-control2{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0 10px 0 10px;
+  height: 1.5rem;
+}
+.checkstyle{
+ width: 80px;
+
+
+}
+.save-btn{
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 15, 0, 0.986);
+  padding: 10px;
+  font-family: Rubik;
+  font-size: 1rem;
+  outline: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+label{
+  display: block;
+}
+.about{
+    min-height: 300px;
+}
+
+.about__inner{
+    min-height: 300px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    line-height: 1.5;
+    
+}
+.about__cards{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.Register{
+  padding: 10px 25px;
+  background-color: #333333;
+  color: white;
+  margin-top: .8rem;
+}
+.App-header_inner{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+ 
+ 
+}
+.App-header {
+
+  min-height: 25px;
+  font-size: 1.1rem;
+  color: #161623;
+  border: 1px solid grey;
+  /* margin-bottom: 2rem; */
+  padding-top: 5px;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+ 
+}
+.App_list{
+  font-size: .8rem;
+  display: flex;
+  
+}
+.hero{
+  min-height: 300px;
+
+}
+.hero_inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  /* background-color: #282c34; */
+}
+.hero_card{
+  border: 1px solid grey;
+  height: 250px;
+  width: 200px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.card1{
+  background-image: url('assets/\'John\'\ a\ Wick-ed\,\ action-packed\ tale\ of\ stylish\ revenge.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70%;
+  width: 100%;
+ 
+}
+.card2{
+  background-image: url('assets/HD\ wallpaper_\ venom\ movie\,\ 2018\ movies\,\ hd\,\ poster\,\ tom\ hardy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70%;
+  width: 100%;
+}
+.hero_text{
+    padding: 5px;
+}
+
+.App_link {
+  color: #61dafb;
+  list-style: none;
+  margin-left: 15px;
+}
+.App_list a{
+  text-decoration: none;
+}
+.success{
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+.grey{
+  display: flex;
+  justify-content: center;
+  color: #333333;
+}
+
+button{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: maroon;
+  color: white;
+  border: none;
+ 
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
